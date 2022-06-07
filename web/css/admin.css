@@ -1,0 +1,32 @@
+.orders-container {
+    width: 100%;
+    height: fit-content;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.orders-block {
+    width: 50%;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;
+    height: fit-content;
+}
+
+.order-field{
+    margin: 8px;
+}
+
+.order{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.order-name{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}

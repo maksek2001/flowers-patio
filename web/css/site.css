@@ -1,0 +1,362 @@
+:root {
+    --text-size: 18px;
+    --text-size-large: 20px;
+    --font-family: Times New Roman;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #00ff55;
+    text-decoration: none;
+}
+
+body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: var(--text-size);
+    background-image: url(../web/public/images/back.jpg);
+    background-size: cover;
+}
+
+main>.container-fluid {
+    padding-top: 5em;
+}
+
+.header {
+    background-color: rgb(9 9 44 / 83%);
+}
+
+.footer {
+    background-color: rgb(9 9 44 / 83%);
+    font-size: 0.9em;
+    height: 50px;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after,
+a.desc:after {
+    content: "";
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li>form>button.logout {
+    padding-top: 7px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    .nav li>form>button.logout {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav>li>form>button.logout:focus,
+.nav>li>form>button.logout:hover {
+    text-decoration: none;
+    color: #db5a03;
+}
+
+.nav>li>form>button.logout:focus {
+    outline: none;
+}
+
+.index-row {
+    margin-left: 20px;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    border: 2px solid #16ff4c;
+    padding-right: 0.75rem;
+    background-image: none;
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    font-size: 14px;
+}
+
+.contacts {
+    margin-left: 10px;
+}
+
+.custom-h {
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    padding-bottom: 5px;
+    background-color: rgb(9 9 44 / 83%);
+    border-radius: 10px 10px 0 0;
+}
+
+.sales {
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+}
+
+.text-block {
+    text-align: left;
+    margin-left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.main-info {
+    width: 95%;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.left-block {
+    width: 33%;
+    height: fit-content;
+    padding: 20px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgb(247 247 247);
+}
+
+.right-block {
+    margin-left: 5vw;
+    width: 55vw;
+}
+
+.category {
+    text-align: center;
+    text-decoration: overline;
+    width: 24%;
+    margin: 20px;
+}
+
+.a-category {
+    color: #000;
+}
+
+.a-category:hover {
+    color: #00ff55
+}
+
+.summary-shop {
+    width: fit-content;
+    height: 40px;
+    font-weight: bold;
+    font-size: var(--text-size-large);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.summary-shop:hover {
+    text-decoration: underline;
+    color: #00ff55;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 0;
+}
+
+.summary-shop:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    text-decoration: underline;
+    color: #00ff55;
+}
+
+details {
+    margin-bottom: 10px;
+}
+
+.a-button {
+    font-size: var(--text-size);
+    padding: 7px 12px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(27 27 98);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.a-button:hover {
+    background-color: #00d647;
+    text-decoration: underline;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000;
+}
+
+.logout {
+    font-size: var(--text-size);
+}
+
+.icon {
+    width: 20px;
+    vertical-align: sub;
+    border-style: none;
+}
+
+.menu-icon {
+    width: 45px;
+    border-style: none;
+}
+
+.middle-icon {
+    width: 35px;
+    border-style: none;
+}
+
+.large-icon {
+    width: 60px;
+    border-style: none;
+}
+
+.btn-link {
+    color: #a5a5a5;
+}
+
+.btn-link:hover {
+    color: #00ff55;
+}
+
+.count {
+    width: 57px;
+    text-align: center;
+}
+
+.number {
+	display: inline-flex;
+	position: relative;
+	width: 100px;
+}
+.number input[type="number"] {
+	display: block;
+	height: 33px;
+	line-height: 32px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+.number input[type="number"]::-webkit-outer-spin-button,
+.number input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+.number-minus {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	bottom: 1px;
+	width: 20px;
+	padding: 0;
+	display: block;
+	text-align: center;
+	border: none;
+	border-right: 1px solid #ddd;
+	font-size: 16px;
+	font-weight: 600;
+}
+.number-plus {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	width: 20px;
+	padding: 0;
+	display: block;
+	text-align: center;
+	border: none;
+	border-left: 1px solid #ddd;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f77e89;
+    border-color: #da1026;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #88db9c;
+    border-color: #1e8a37;
+}
+
+.form-block{
+    width: fit-content;
+    margin: 100px auto;
+}
+
+.my-form{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 500px;
+    border: 1px solid;
+    background-color: #fff;
+}
+
+.nav li>form>button.logout {
+    padding: 10px;
+    color: #afafaf;
+}

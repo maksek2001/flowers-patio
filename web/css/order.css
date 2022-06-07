@@ -1,0 +1,100 @@
+.bouquet-container {
+    align-content: center;
+    width: 100%;
+    height: fit-content;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.self-container {
+    width: 100%;
+    height: fit-content;
+}
+
+.bouquet {
+    width: 30%;
+    height: fit-content;
+    text-align: center;
+    background-color: #2d2c49ed;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+}
+
+.img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.item {
+    width: 30%;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 6px;
+    margin: 5px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+
+.item-info{
+    padding: 5px;
+    background-color: #dbdada;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.flowers{
+    background-color: transparent;
+}
+
+.items {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item-img {
+    width: 65px;
+    height: 60px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.bouquet-info {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.bouquet-price {
+    font-size: 16px;
+    padding-top: 7px;
+    margin-right: 15px;
+}
+
+.bouquet-name {
+    color: #6bff61;
+}
+
+.summary-shop {
+    border-radius: 10px;
+}
+
+.total-price {
+    text-align: center;
+}
+
+.make-form {
+    margin: 10px auto;
+}
