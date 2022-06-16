@@ -1,6 +1,6 @@
 {
-    "name": "maksek2001/rent_cars",
-    "description": "Rent Cars",
+    "name": "maksek2001/flowers-patio",
+    "description": "Flowers Patio",
     "require": {
         "php": ">=5.6.0",
         "yiisoft/yii2": "~2.0.14",
